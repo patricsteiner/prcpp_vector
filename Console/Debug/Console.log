@@ -1,0 +1,52 @@
+﻿  Console.cpp
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\vector\expression.h(13): error C2059: syntax error: 'if'
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\vector\expression.h(39): note: see reference to class template instantiation 'Expression<Left,Op,Right>' being compiled
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\vector\expression.h(13): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\vector\expression.h(16): error C2059: syntax error: 'else'
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\vector\expression.h(16): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\vector\expression.h(24): error C2143: syntax error: missing ';' before '['
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\vector\expression.h(24): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\vector\expression.h(41): error C2061: syntax error: identifier 'Vector'
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\vector\expression.h(43): error C2913: explicit specialization; 'Expression' is not a specialization of a class template
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\console\console.cpp(8): error C2514: 'Expression': class has no constructors
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\vector\expression.h(41): note: see declaration of 'Expression'
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\console\console.cpp(9): error C2679: binary '=': no operator found which takes a right-hand operand of type 'Expression' (or there is no acceptable conversion)
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\vector\vector.h(44): note: could be 'Vector<double,4> &Vector<double,4>::operator =(Vector<double,4> &&)'
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\vector\vector.h(44): note: or       'Vector<double,4> &Vector<double,4>::operator =(const Vector<double,4> &)'
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\console\console.cpp(9): note: while trying to match the argument list '(Vector<double,4>, Expression)'
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\console\console.cpp(12): error C2679: binary '<<': no operator found which takes a right-hand operand of type 'Expression' (or there is no acceptable conversion)
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(495): note: could be 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(475): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(455): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(435): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(415): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(395): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(375): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(355): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(335): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(315): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(290): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(270): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(236): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(216): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(209): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(202): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(196): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(1019): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const std::error_code &)'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(981): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>,Expression>(std::basic_ostream<char,std::char_traits<char>> &&,const _Ty &)'
+          with
+          [
+              _Ty=Expression
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(971): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,unsigned char)'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(964): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const unsigned char *)'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(957): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,signed char)'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(950): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const signed char *)'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(824): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(777): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(739): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(692): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)'
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\console\console.cpp(12): note: while trying to match the argument list '(std::ostream, Expression)'
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\console\console.cpp(14): error C2678: binary '[': no operator found which takes a left-hand operand of type 'Expression' (or there is no acceptable conversion)
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\vector\expression.h(24): note: could be 'int Expression<Left,Op,Right>::operator [](int) const'
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\console\console.cpp(14): note: while trying to match the argument list '(Expression, int)'

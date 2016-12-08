@@ -1,0 +1,6 @@
+﻿  stdafx.cpp
+  unittest1.cpp
+     Creating library c:\users\patric\documents\visual studio 2015\Projects\prcpp_set\x64\Debug\UnitTest.lib and object c:\users\patric\documents\visual studio 2015\Projects\prcpp_set\x64\Debug\UnitTest.exp
+unittest1.obj : error LNK2019: unresolved external symbol "protected: class Set __cdecl Set::difference(class Set const &)const " (?difference@Set@@IEBA?AV1@AEBV1@@Z) referenced in function "public: static class Set __cdecl Set::difference(class Set const &,class Set const &)" (?difference@Set@@SA?AV1@AEBV1@0@Z)
+unittest1.obj : error LNK2019: unresolved external symbol "protected: class Set __cdecl Set::intersection(class Set const &)const " (?intersection@Set@@IEBA?AV1@AEBV1@@Z) referenced in function "public: static class Set __cdecl Set::intersection(class Set const &,class Set const &)" (?intersection@Set@@SA?AV1@AEBV1@0@Z)
+c:\users\patric\documents\visual studio 2015\Projects\prcpp_set\x64\Debug\UnitTest.dll : fatal error LNK1120: 2 unresolved externals

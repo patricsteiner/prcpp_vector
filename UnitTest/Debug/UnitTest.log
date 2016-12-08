@@ -1,0 +1,352 @@
+﻿  unittest1.cpp
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\vector\expression.h(13): error C2059: syntax error: 'if'
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\vector\expression.h(39): note: see reference to class template instantiation 'Expression<Left,Op,Right>' being compiled
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\vector\expression.h(13): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\vector\expression.h(16): error C2059: syntax error: 'else'
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\vector\expression.h(16): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\vector\expression.h(24): error C2143: syntax error: missing ';' before '['
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\vector\expression.h(24): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\vector\expression.h(41): error C2061: syntax error: identifier 'Vector'
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\vector\expression.h(43): error C2913: explicit specialization; 'Expression' is not a specialization of a class template
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(15): error C2678: binary '==': no operator found which takes a left-hand operand of type 'Expression' (or there is no acceptable conversion)
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(389): note: could be 'bool std::operator ==(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(381): note: or       'bool std::operator ==(const std::error_condition &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(373): note: or       'bool std::operator ==(const std::error_code &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(365): note: or       'bool std::operator ==(const std::error_code &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(339): note: or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(334): note: or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(329): note: or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &) throw()'
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(15): note: while trying to match the argument list '(Expression, Vector<double,5>)'
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(16): error C2678: binary '[': no operator found which takes a left-hand operand of type 'Expression' (or there is no acceptable conversion)
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\vector\expression.h(24): note: could be 'int Expression<Left,Op,Right>::operator [](int) const'
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(16): note: while trying to match the argument list '(Expression, int)'
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(18): error C2678: binary '==': no operator found which takes a left-hand operand of type 'Expression' (or there is no acceptable conversion)
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(389): note: could be 'bool std::operator ==(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(381): note: or       'bool std::operator ==(const std::error_condition &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(373): note: or       'bool std::operator ==(const std::error_code &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(365): note: or       'bool std::operator ==(const std::error_code &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(339): note: or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(334): note: or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(329): note: or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &) throw()'
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(18): note: while trying to match the argument list '(Expression, Vector<double,5>)'
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(19): error C2678: binary '[': no operator found which takes a left-hand operand of type 'Expression' (or there is no acceptable conversion)
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\vector\expression.h(24): note: could be 'int Expression<Left,Op,Right>::operator [](int) const'
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(19): note: while trying to match the argument list '(Expression, int)'
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(22): error C2678: binary '[': no operator found which takes a left-hand operand of type 'Expression' (or there is no acceptable conversion)
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\vector\expression.h(24): note: could be 'int Expression<Left,Op,Right>::operator [](int) const'
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(22): note: while trying to match the argument list '(Expression, int)'
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(24): error C2678: binary '==': no operator found which takes a left-hand operand of type 'Expression' (or there is no acceptable conversion)
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(389): note: could be 'bool std::operator ==(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(381): note: or       'bool std::operator ==(const std::error_condition &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(373): note: or       'bool std::operator ==(const std::error_code &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(365): note: or       'bool std::operator ==(const std::error_code &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(339): note: or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(334): note: or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(329): note: or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &) throw()'
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(24): note: while trying to match the argument list '(Expression, Vector<double,5>)'
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(25): error C2678: binary '[': no operator found which takes a left-hand operand of type 'Expression' (or there is no acceptable conversion)
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\vector\expression.h(24): note: could be 'int Expression<Left,Op,Right>::operator [](int) const'
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(25): note: while trying to match the argument list '(Expression, int)'
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(35): error C2678: binary '==': no operator found which takes a left-hand operand of type 'Expression' (or there is no acceptable conversion)
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(389): note: could be 'bool std::operator ==(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(381): note: or       'bool std::operator ==(const std::error_condition &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(373): note: or       'bool std::operator ==(const std::error_code &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(365): note: or       'bool std::operator ==(const std::error_code &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(339): note: or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(334): note: or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(329): note: or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &) throw()'
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(35): note: while trying to match the argument list '(Expression, Expression)'
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(36): error C2678: binary '==': no operator found which takes a left-hand operand of type 'Expression' (or there is no acceptable conversion)
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(389): note: could be 'bool std::operator ==(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(381): note: or       'bool std::operator ==(const std::error_condition &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(373): note: or       'bool std::operator ==(const std::error_code &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(365): note: or       'bool std::operator ==(const std::error_code &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(339): note: or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(334): note: or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(329): note: or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &) throw()'
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(36): note: while trying to match the argument list '(Expression, Expression)'
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(37): error C2678: binary '==': no operator found which takes a left-hand operand of type 'Expression' (or there is no acceptable conversion)
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(389): note: could be 'bool std::operator ==(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(381): note: or       'bool std::operator ==(const std::error_condition &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(373): note: or       'bool std::operator ==(const std::error_code &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(365): note: or       'bool std::operator ==(const std::error_code &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(339): note: or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(334): note: or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(329): note: or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &) throw()'
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(37): note: while trying to match the argument list '(Expression, Expression)'
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(39): error C2678: binary '==': no operator found which takes a left-hand operand of type 'Expression' (or there is no acceptable conversion)
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(389): note: could be 'bool std::operator ==(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(381): note: or       'bool std::operator ==(const std::error_condition &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(373): note: or       'bool std::operator ==(const std::error_code &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(365): note: or       'bool std::operator ==(const std::error_code &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(339): note: or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(334): note: or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(329): note: or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &) throw()'
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(39): note: while trying to match the argument list '(Expression, Expression)'
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(40): error C2678: binary '==': no operator found which takes a left-hand operand of type 'Expression' (or there is no acceptable conversion)
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(389): note: could be 'bool std::operator ==(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(381): note: or       'bool std::operator ==(const std::error_condition &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(373): note: or       'bool std::operator ==(const std::error_code &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(365): note: or       'bool std::operator ==(const std::error_code &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(339): note: or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(334): note: or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(329): note: or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &) throw()'
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(40): note: while trying to match the argument list '(Expression, Expression)'
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(42): error C2678: binary '==': no operator found which takes a left-hand operand of type 'Expression' (or there is no acceptable conversion)
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(389): note: could be 'bool std::operator ==(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(381): note: or       'bool std::operator ==(const std::error_condition &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(373): note: or       'bool std::operator ==(const std::error_code &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(365): note: or       'bool std::operator ==(const std::error_code &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(339): note: or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(334): note: or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(329): note: or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &) throw()'
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(42): note: while trying to match the argument list '(Expression, Expression)'
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(43): error C2678: binary '==': no operator found which takes a left-hand operand of type 'Expression' (or there is no acceptable conversion)
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(389): note: could be 'bool std::operator ==(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(381): note: or       'bool std::operator ==(const std::error_condition &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(373): note: or       'bool std::operator ==(const std::error_code &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(365): note: or       'bool std::operator ==(const std::error_code &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(339): note: or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(334): note: or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(329): note: or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &) throw()'
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(43): note: while trying to match the argument list '(Expression, Expression)'
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(44): error C2678: binary '==': no operator found which takes a left-hand operand of type 'Expression' (or there is no acceptable conversion)
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(389): note: could be 'bool std::operator ==(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(381): note: or       'bool std::operator ==(const std::error_condition &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(373): note: or       'bool std::operator ==(const std::error_code &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(365): note: or       'bool std::operator ==(const std::error_code &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(339): note: or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(334): note: or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(329): note: or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &) throw()'
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(44): note: while trying to match the argument list '(Expression, Vector<double,5>)'
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(45): error C2678: binary '==': no operator found which takes a left-hand operand of type 'Expression' (or there is no acceptable conversion)
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(389): note: could be 'bool std::operator ==(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(381): note: or       'bool std::operator ==(const std::error_condition &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(373): note: or       'bool std::operator ==(const std::error_code &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(365): note: or       'bool std::operator ==(const std::error_code &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(339): note: or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(334): note: or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(329): note: or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &) throw()'
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(45): note: while trying to match the argument list '(Expression, Expression)'
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(47): error C2678: binary '==': no operator found which takes a left-hand operand of type 'Expression' (or there is no acceptable conversion)
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(389): note: could be 'bool std::operator ==(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(381): note: or       'bool std::operator ==(const std::error_condition &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(373): note: or       'bool std::operator ==(const std::error_code &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(365): note: or       'bool std::operator ==(const std::error_code &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(339): note: or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(334): note: or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(329): note: or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &) throw()'
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(47): note: while trying to match the argument list '(Expression, Vector<double,5>)'
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(49): error C2678: binary '==': no operator found which takes a left-hand operand of type 'Expression' (or there is no acceptable conversion)
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(389): note: could be 'bool std::operator ==(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(381): note: or       'bool std::operator ==(const std::error_condition &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(373): note: or       'bool std::operator ==(const std::error_code &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(365): note: or       'bool std::operator ==(const std::error_code &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(339): note: or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(334): note: or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(329): note: or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &) throw()'
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(49): note: while trying to match the argument list '(Expression, Vector<double,5>)'
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(50): error C2678: binary '==': no operator found which takes a left-hand operand of type 'Expression' (or there is no acceptable conversion)
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(389): note: could be 'bool std::operator ==(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(381): note: or       'bool std::operator ==(const std::error_condition &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(373): note: or       'bool std::operator ==(const std::error_code &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(365): note: or       'bool std::operator ==(const std::error_code &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(339): note: or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(334): note: or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(329): note: or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &) throw()'
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(50): note: while trying to match the argument list '(Expression, Expression)'
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(52): error C2678: binary '[': no operator found which takes a left-hand operand of type 'Expression' (or there is no acceptable conversion)
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\vector\expression.h(24): note: could be 'int Expression<Left,Op,Right>::operator [](int) const'
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(52): note: while trying to match the argument list '(Expression, int)'
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(52): error C2088: '[': illegal for class
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(63): error C2678: binary '==': no operator found which takes a left-hand operand of type 'Expression' (or there is no acceptable conversion)
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(389): note: could be 'bool std::operator ==(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(381): note: or       'bool std::operator ==(const std::error_condition &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(373): note: or       'bool std::operator ==(const std::error_code &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(365): note: or       'bool std::operator ==(const std::error_code &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(339): note: or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(334): note: or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(329): note: or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &) throw()'
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(63): note: while trying to match the argument list '(Expression, Vector<double,5>)'
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(64): error C2678: binary '==': no operator found which takes a left-hand operand of type 'Expression' (or there is no acceptable conversion)
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(389): note: could be 'bool std::operator ==(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(381): note: or       'bool std::operator ==(const std::error_condition &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(373): note: or       'bool std::operator ==(const std::error_code &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(365): note: or       'bool std::operator ==(const std::error_code &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(339): note: or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(334): note: or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(329): note: or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &) throw()'
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(64): note: while trying to match the argument list '(Expression, Vector<double,5>)'
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(68): error C2678: binary '==': no operator found which takes a left-hand operand of type 'Expression' (or there is no acceptable conversion)
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(389): note: could be 'bool std::operator ==(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(381): note: or       'bool std::operator ==(const std::error_condition &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(373): note: or       'bool std::operator ==(const std::error_code &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(365): note: or       'bool std::operator ==(const std::error_code &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(339): note: or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(334): note: or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(329): note: or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &) throw()'
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(68): note: while trying to match the argument list '(Expression, Vector<double,5>)'
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(69): error C2678: binary '[': no operator found which takes a left-hand operand of type 'Expression' (or there is no acceptable conversion)
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\vector\expression.h(24): note: could be 'int Expression<Left,Op,Right>::operator [](int) const'
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(69): note: while trying to match the argument list '(Expression, int)'
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(71): error C2678: binary '[': no operator found which takes a left-hand operand of type 'Expression' (or there is no acceptable conversion)
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\vector\expression.h(24): note: could be 'int Expression<Left,Op,Right>::operator [](int) const'
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(71): note: while trying to match the argument list '(Expression, int)'
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(73): error C2678: binary '==': no operator found which takes a left-hand operand of type 'Expression' (or there is no acceptable conversion)
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(389): note: could be 'bool std::operator ==(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(381): note: or       'bool std::operator ==(const std::error_condition &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(373): note: or       'bool std::operator ==(const std::error_code &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(365): note: or       'bool std::operator ==(const std::error_code &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(339): note: or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(334): note: or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(329): note: or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &) throw()'
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(73): note: while trying to match the argument list '(Expression, Vector<double,5>)'
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(74): error C2678: binary '==': no operator found which takes a left-hand operand of type 'Expression' (or there is no acceptable conversion)
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(389): note: could be 'bool std::operator ==(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(381): note: or       'bool std::operator ==(const std::error_condition &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(373): note: or       'bool std::operator ==(const std::error_code &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(365): note: or       'bool std::operator ==(const std::error_code &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(339): note: or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(334): note: or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(329): note: or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &) throw()'
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(74): note: while trying to match the argument list '(Expression, Vector<double,5>)'
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(78): error C2678: binary '==': no operator found which takes a left-hand operand of type 'Expression' (or there is no acceptable conversion)
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(389): note: could be 'bool std::operator ==(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(381): note: or       'bool std::operator ==(const std::error_condition &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(373): note: or       'bool std::operator ==(const std::error_code &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(365): note: or       'bool std::operator ==(const std::error_code &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(339): note: or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(334): note: or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(329): note: or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &) throw()'
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(78): note: while trying to match the argument list '(Expression, Vector<double,5>)'
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(79): error C2678: binary '[': no operator found which takes a left-hand operand of type 'Expression' (or there is no acceptable conversion)
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\vector\expression.h(24): note: could be 'int Expression<Left,Op,Right>::operator [](int) const'
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(79): note: while trying to match the argument list '(Expression, int)'
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(81): error C2678: binary '[': no operator found which takes a left-hand operand of type 'Expression' (or there is no acceptable conversion)
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\vector\expression.h(24): note: could be 'int Expression<Left,Op,Right>::operator [](int) const'
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(81): note: while trying to match the argument list '(Expression, int)'
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(83): error C2514: 'Expression': class has no constructors
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\vector\expression.h(41): note: see declaration of 'Expression'
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(84): error C2678: binary '==': no operator found which takes a left-hand operand of type 'Expression' (or there is no acceptable conversion)
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(389): note: could be 'bool std::operator ==(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(381): note: or       'bool std::operator ==(const std::error_condition &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(373): note: or       'bool std::operator ==(const std::error_code &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(365): note: or       'bool std::operator ==(const std::error_code &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(339): note: or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(334): note: or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(329): note: or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &) throw()'
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(84): note: while trying to match the argument list '(Expression, Vector<double,5>)'
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(85): error C2514: 'Expression': class has no constructors
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\vector\expression.h(41): note: see declaration of 'Expression'
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(86): error C2679: binary '=': no operator found which takes a right-hand operand of type 'Expression' (or there is no acceptable conversion)
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\vector\vector.h(44): note: could be 'Vector<double,5> &Vector<double,5>::operator =(Vector<double,5> &&)'
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\vector\vector.h(44): note: or       'Vector<double,5> &Vector<double,5>::operator =(const Vector<double,5> &)'
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(86): note: while trying to match the argument list '(Vector<double,5>, Expression)'
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(87): error C2678: binary '==': no operator found which takes a left-hand operand of type 'Expression' (or there is no acceptable conversion)
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(389): note: could be 'bool std::operator ==(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(381): note: or       'bool std::operator ==(const std::error_condition &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(373): note: or       'bool std::operator ==(const std::error_code &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(365): note: or       'bool std::operator ==(const std::error_code &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(339): note: or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(334): note: or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(329): note: or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &) throw()'
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(87): note: while trying to match the argument list '(Expression, Vector<double,5>)'
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(90): error C2678: binary '==': no operator found which takes a left-hand operand of type 'Expression' (or there is no acceptable conversion)
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(389): note: could be 'bool std::operator ==(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(381): note: or       'bool std::operator ==(const std::error_condition &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(373): note: or       'bool std::operator ==(const std::error_code &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(365): note: or       'bool std::operator ==(const std::error_code &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(339): note: or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(334): note: or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(329): note: or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &) throw()'
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(90): note: while trying to match the argument list '(Expression, Vector<double,5>)'
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(99): error C2678: binary '==': no operator found which takes a left-hand operand of type 'Expression' (or there is no acceptable conversion)
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(389): note: could be 'bool std::operator ==(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(381): note: or       'bool std::operator ==(const std::error_condition &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(373): note: or       'bool std::operator ==(const std::error_code &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(365): note: or       'bool std::operator ==(const std::error_code &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(339): note: or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(334): note: or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(329): note: or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &) throw()'
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(99): note: while trying to match the argument list '(Expression, Expression)'
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(100): error C2678: binary '==': no operator found which takes a left-hand operand of type 'Expression' (or there is no acceptable conversion)
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(389): note: could be 'bool std::operator ==(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(381): note: or       'bool std::operator ==(const std::error_condition &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(373): note: or       'bool std::operator ==(const std::error_code &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(365): note: or       'bool std::operator ==(const std::error_code &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(339): note: or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(334): note: or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(329): note: or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &) throw()'
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(100): note: while trying to match the argument list '(Expression, Expression)'
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(101): error C2678: binary '==': no operator found which takes a left-hand operand of type 'Expression' (or there is no acceptable conversion)
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(389): note: could be 'bool std::operator ==(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(381): note: or       'bool std::operator ==(const std::error_condition &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(373): note: or       'bool std::operator ==(const std::error_code &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(365): note: or       'bool std::operator ==(const std::error_code &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(339): note: or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(334): note: or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(329): note: or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &) throw()'
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(101): note: while trying to match the argument list '(Expression, Vector<double,5>)'
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(103): error C2678: binary '==': no operator found which takes a left-hand operand of type 'Expression' (or there is no acceptable conversion)
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(389): note: could be 'bool std::operator ==(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(381): note: or       'bool std::operator ==(const std::error_condition &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(373): note: or       'bool std::operator ==(const std::error_code &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(365): note: or       'bool std::operator ==(const std::error_code &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(339): note: or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(334): note: or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(329): note: or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &) throw()'
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(103): note: while trying to match the argument list '(Expression, Vector<double,5>)'
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(104): error C2678: binary '==': no operator found which takes a left-hand operand of type 'Expression' (or there is no acceptable conversion)
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(389): note: could be 'bool std::operator ==(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(381): note: or       'bool std::operator ==(const std::error_condition &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(373): note: or       'bool std::operator ==(const std::error_code &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(365): note: or       'bool std::operator ==(const std::error_code &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(339): note: or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(334): note: or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(329): note: or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &) throw()'
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(104): note: while trying to match the argument list '(Expression, Expression)'
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(106): error C2678: binary '==': no operator found which takes a left-hand operand of type 'Expression' (or there is no acceptable conversion)
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(389): note: could be 'bool std::operator ==(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(381): note: or       'bool std::operator ==(const std::error_condition &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(373): note: or       'bool std::operator ==(const std::error_code &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(365): note: or       'bool std::operator ==(const std::error_code &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(339): note: or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(334): note: or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(329): note: or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &) throw()'
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(106): note: while trying to match the argument list '(Expression, Vector<double,5>)'
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(107): error C2678: binary '[': no operator found which takes a left-hand operand of type 'Expression' (or there is no acceptable conversion)
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\vector\expression.h(24): note: could be 'int Expression<Left,Op,Right>::operator [](int) const'
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(107): note: while trying to match the argument list '(Expression, int)'
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(108): error C2678: binary '[': no operator found which takes a left-hand operand of type 'Expression' (or there is no acceptable conversion)
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\vector\expression.h(24): note: could be 'int Expression<Left,Op,Right>::operator [](int) const'
+  c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(108): note: while trying to match the argument list '(Expression, int)'
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(116): error C2100: illegal indirection
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(116): error C2088: '*': illegal for class
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(118): error C2100: illegal indirection
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(118): error C2088: '*': illegal for class
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(119): error C2100: illegal indirection
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(119): error C2088: '*': illegal for class
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(120): error C2100: illegal indirection
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(120): error C2088: '*': illegal for class
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(121): error C2100: illegal indirection
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(121): error C2088: '*': illegal for class
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(122): error C2100: illegal indirection
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(122): error C2088: '*': illegal for class
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(123): error C2100: illegal indirection
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(123): error C2088: '*': illegal for class
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(124): error C2100: illegal indirection
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(124): error C2088: '*': illegal for class
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(125): error C2100: illegal indirection
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(125): error C2088: '*': illegal for class
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(126): error C2100: illegal indirection
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(126): error C2088: '*': illegal for class
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(127): error C2100: illegal indirection
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(127): error C2088: '*': illegal for class
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(128): error C2100: illegal indirection
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(128): error C2088: '*': illegal for class
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(129): error C2100: illegal indirection
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(129): error C2088: '*': illegal for class
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(130): error C2100: illegal indirection
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(130): error C2088: '*': illegal for class
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(131): error C2100: illegal indirection
+c:\users\patric\documents\visual studio 2015\projects\prcpp_vector\unittest\unittest1.cpp(131): error C2088: '*': illegal for class
