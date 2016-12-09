@@ -52,7 +52,7 @@ public:
 		Assert::IsTrue((A*B)[1] == (C / A)[4] + (C / A)[0]);
 
 	}
-
+	/*
 	// Aufgabe 2
 	TEST_METHOD(VectorScalar) {
 		Vector<double, 5> A({ 1, 2, 3, 4, 5 });
@@ -89,7 +89,7 @@ public:
 		A[1] = 0;
 		Assert::IsFalse(e == D);
 	}
-	/*
+	
 	// Aufgabe 2
 	TEST_METHOD(ExprScalar) {
 		Vector<double, 5> A({ 1, 2, 3, 4, 5 });

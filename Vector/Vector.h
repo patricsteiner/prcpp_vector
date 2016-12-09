@@ -29,7 +29,7 @@ public:
 	}
 
 	template <typename T> bool operator==(const T& other) {
-		for (size_t i = 0; i < size(); i++) if (*this)[i] != other[i] return false;
+		for (size_t i = 0; i < size(); i++) if ((*this)[i] != other[i]) return false;
 		return true;
 	}
 
