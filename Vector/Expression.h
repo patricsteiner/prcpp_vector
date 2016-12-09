@@ -35,6 +35,8 @@ public:
 };
 
 template<typename Op, typename Right> class Expression<double, Op, Right> {
+	//TODO: do i really need to copy paste all methods and fields?
+	//TODO: could i use sth more generic than double?
 	const double m_left;
 	const Right& m_right;
 
@@ -48,7 +50,6 @@ public:
 		return Op::apply<value_type>(m_left, m_right[i]);
 	}
 
-	//TODO: do i really need to copy paste all methods + fields?
 	template <typename T> bool operator==(const T& other) {
 		for (size_t i = 0; i < size(); i++) if ((*this)[i] != other[i]) return false;
 		return true;
