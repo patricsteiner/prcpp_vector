@@ -89,7 +89,7 @@ public:
 		A[1] = 0;
 		Assert::IsFalse(e == D);
 	}
-
+	/*
 	// Aufgabe 2
 	TEST_METHOD(ExprScalar) {
 		Vector<double, 5> A({ 1, 2, 3, 4, 5 });
@@ -107,7 +107,7 @@ public:
 		Assert::IsTrue((((A + B) / C)*9.0)[3] == B[2]);
 		Assert::IsTrue(B[4] == (25.0*((C + B) / A) / 11.0)[4]);
 	}
-
+	
 	// Aufgabe 3
 	TEST_METHOD(DotProduct) {
 		Vector<double, 5> A({ 1, 2, 3, 4, 5 });
@@ -129,7 +129,7 @@ public:
 		Assert::IsTrue(d == 2.0*B**A);
 		d = 2.0*B**A;
 		Assert::IsTrue(2.0*B**A == d);
-	}
+	}*/
 
 	};
 }

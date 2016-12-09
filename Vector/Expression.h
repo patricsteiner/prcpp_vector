@@ -26,16 +26,18 @@ public:
 
 	friend ostream& operator<<(ostream& os, const Expression& e) {
 		os << "[";
-		// TODO: somehow iterate over this shit
-		os << e[0] << ", " << e[1] << ", " << e[2] << ", " << e[3];
+		if (e.size() > 0) os << e[0];
+		for (int i = 1; i < e.size(); i++) {
+			os << ", " << e[i];
+		}
 		return os << "]";
 	}
 };
 
-template<Vector, typename Op, typename Right> class Expression {
+/*template<Vector, typename Op, typename Right> class Expression {
 	//TODO need this specialization???? prolly not.... 
 	typedef typename Left::value_type value_type;
-};
+};*/
 
 template<typename Left, typename Right>
 Expression<Left, Add, Right> operator+(const Left& l, const Right& r) {
