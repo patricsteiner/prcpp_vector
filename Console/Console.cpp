@@ -1,7 +1,18 @@
 
 #include "../Vector/Vector.h"
 
-int main() {
+int main(){
+	Vector<double, 4> A({ 1, 2, 3, 4 });
+	Vector<double, 4> B({ 2, 1, 0, 1 });
+	auto a = A%B;
+	//double d = ((A - B)*(B**A))**B;
+	//auto e = (A**B)*A - B*(B**A);
+	//cout << e << endl;
+	cout << a << endl;
+	return 0;
+}
+
+int main2() {
 	Vector<double, 4> A({ 1, 2, 3, 4 });
 	Vector<double, 4> B({ 2, 1, 0, 1 });
 	auto e = (2.0*(A - B) / 2.0 + B + 5.0) * (A - 4.0 + 4.0*B) / 4.0;

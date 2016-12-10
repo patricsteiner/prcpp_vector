@@ -41,4 +41,9 @@ public:
 		while (it != end) os << ", " << *it++;
 		return os << "]";
 	}
+
+	/*Vector<T, S>* operator*() {
+		cout << "deref-operator of vector   " << *this << endl << &*this << endl;
+		return &(*this);
+	}*/
 };
