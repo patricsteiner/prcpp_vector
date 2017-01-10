@@ -42,8 +42,7 @@ public:
 		return os << "]";
 	}
 
-	/*Vector<T, S>* operator*() {
-		cout << "deref-operator of vector   " << *this << endl << &*this << endl;
-		return &(*this);
-	}*/
+	const Vector<T, S>* operator*() const {
+		return this;
+	}
 };

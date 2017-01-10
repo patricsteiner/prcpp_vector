@@ -2,13 +2,19 @@
 #include "../Vector/Vector.h"
 
 int main(){
-	Vector<double, 4> A({ 1, 2, 3, 4 });
-	Vector<double, 4> B({ 2, 1, 0, 1 });
-	auto a = A%B;
-	//double d = ((A - B)*(B**A))**B;
-	//auto e = (A**B)*A - B*(B**A);
-	//cout << e << endl;
-	cout << a << endl;
+	Vector<double, 5> A({ 1, 2, 3, 4, 5 });
+	Vector<double, 5> B({ 1, 4, 9, 16, 25 });
+	Vector<double, 5> C({ 2, 6, 12, 20, 30 });
+	double d = A**B;
+	cout << d << endl;
+	d = A**(A + B);
+	cout << d << endl;
+	d = (B + A)**A;
+	cout << d << endl;
+	d = A**B*2.0;
+	cout << d << endl;
+	d = 2.0*B**A;
+	cout << d << endl;
 	return 0;
 }
 

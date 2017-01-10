@@ -10,7 +10,7 @@ template<typename Left, typename Op, typename Right> class Expression {
 	const Right& m_right;
 
 public:
-	typedef typename Left::value_type value_type; // http://stackoverflow.com/questions/10863075/member-to-function-pointer-inside-template-class-gives-error-must-be-a-class-or
+	typedef typename Left::value_type value_type;
 
 	Expression(const Left& l, const Right& r) : m_left{ l }, m_right{ r } {}
 	size_t size() const { return m_left.size(); }
@@ -24,6 +24,10 @@ public:
 		return true;
 	}
 
+	const Expression<Left, Op, Right>* operator*() const {
+		return this;
+	}
+
 	friend ostream& operator<<(ostream& os, const Expression& e) {
 		os << "[";
 		if (e.size() > 0) os << e[0];
@@ -35,8 +39,6 @@ public:
 };
 
 template<typename Op, typename Right> class Expression<double, Op, Right> {
-	//TODO: do i really need to copy paste all methods and fields?
-	//TODO: could i use sth more generic than double?
 	const double m_left;
 	const Right& m_right;
 
@@ -84,6 +86,10 @@ public:
 		return true;
 	}
 
+	operator double() {
+		return (*this)[0];
+	}
+
 	friend ostream& operator<<(ostream& os, const Expression& e) {
 		os << "[";
 		if (e.size() > 0) os << e[0];
@@ -116,7 +122,11 @@ public:
 	}
 
 	template <typename T> bool operator==(const T& other) {
-		return (*this)[0] == other[0];
+		return (*this) == other;
+	}
+
+	operator double() {
+		return (*this)[0];
 	}
 
 	friend ostream& operator<<(ostream& os, const Expression& e) {
@@ -141,11 +151,11 @@ Expression<Left, Multiply, Right> operator*(const Left& l, const Right& r) {
 }
 
 template<typename Left, typename Right>
-Expression<Left, Divide, Right> operator/(const Left& l, const Right& r) {
-	return Expression<Left, Divide, Right>(l, r);
+Expression<Left, ScalarProduct, Right> operator*(const Left& l, const Right* r) {
+	return Expression<Left, ScalarProduct, Right>(l, *r);
 }
 
 template<typename Left, typename Right>
-Expression<Left, ScalarProduct, Right> operator%(const Left& l, const Right& r) {
-	return Expression<Left, ScalarProduct, Right>(l, r);
+Expression<Left, Divide, Right> operator/(const Left& l, const Right& r) {
+	return Expression<Left, Divide, Right>(l, r);
 }
