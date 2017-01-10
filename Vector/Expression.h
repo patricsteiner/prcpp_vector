@@ -121,8 +121,8 @@ public:
 		return ScalarProduct::apply<value_type>(left_values, right_values, size);
 	}
 
-	template <typename T> bool operator==(const T& other) {
-		return (*this) == other;
+	bool operator==(const double other) {
+		return (double)*this == other;
 	}
 
 	operator double() {
