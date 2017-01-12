@@ -7,7 +7,7 @@ using namespace std;
 
 template <typename T, size_t S> class Vector : public std::array<T, S> {
 public:
-	Vector() : array() {};
+	Vector() {};
 
 	Vector(const std::initializer_list<T>& data) {
 		size_t s = __min(data.size(), S);
@@ -23,7 +23,7 @@ public:
 		return this->at(pos);
 	}
 
-	template <typename Left, typename Op, typename Right> Vector<T, S>& operator=(Expression<Left, Op, Right>& e) {
+	template <typename Left, typename Op, typename Right> Vector<T, S>& operator=(const Expression<Left, Op, Right>& e) {
 		for (size_t i = 0; i < size(); i++) (*this)[i] = e[i];
 		return *this;
 	}

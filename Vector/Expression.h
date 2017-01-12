@@ -28,6 +28,10 @@ public:
 		return this;
 	}
 
+	operator value_type() {
+		return Op::apply<value_type>((value_type)m_left, (value_type)m_right);
+	}
+
 	friend ostream& operator<<(ostream& os, const Expression& e) {
 		os << "[";
 		if (e.size() > 0) os << e[0];
@@ -38,14 +42,14 @@ public:
 	}
 };
 
-template<typename Op, typename Right> class Expression<double, Op, Right> {
-	const double m_left;
+template<typename Op, typename Right> class Expression<typename Right::value_type, Op, Right> {
+	const typename Right::value_type m_left;
 	const Right& m_right;
 
 public:
-	typedef double value_type; 
+	typedef typename Right::value_type value_type;
 
-	Expression(const double s, const Right& r) : m_left{ s }, m_right{ r } {}
+	Expression(const value_type& s, const Right& r) : m_left{ s }, m_right{ r } {}
 	size_t size() const { return m_right.size(); }
 
 	value_type operator[](int i) const {
@@ -55,6 +59,14 @@ public:
 	template <typename T> bool operator==(const T& other) {
 		for (size_t i = 0; i < size(); i++) if ((*this)[i] != other[i]) return false;
 		return true;
+	}
+
+	operator value_type() {
+		return Op::apply<value_type>(m_left, (value_type)m_right);
+	}
+
+	const Expression* operator*() const {
+		return this;
 	}
 
 	friend ostream& operator<<(ostream& os, const Expression& e) {
@@ -67,14 +79,14 @@ public:
 	}
 };
 
-template<typename Left, typename Op> class Expression<Left, Op, double> {
+template<typename Left, typename Op> class Expression<Left, Op, typename Left::value_type> {
 	const Left& m_left;
-	const double m_right;
+	const typename Left::value_type m_right;
 
 public:
-	typedef double value_type;
+	typedef typename Left::value_type value_type;
 
-	Expression(const Left& l, const double s) : m_left{ l }, m_right{ s } {}
+	Expression(const Left& l, const value_type& s) : m_left{ l }, m_right{ s } {}
 	size_t size() const { return m_left.size(); }
 
 	value_type operator[](int i) const {
@@ -86,8 +98,12 @@ public:
 		return true;
 	}
 
-	operator double() {
-		return (*this)[0];
+	operator value_type() {
+		return Op::apply<value_type>((value_type)m_left, m_right);
+	}
+
+	const Expression* operator*() const {
+		return this;
 	}
 
 	friend ostream& operator<<(ostream& os, const Expression& e) {
@@ -105,28 +121,21 @@ template<typename Left, typename Right> class Expression<Left, ScalarProduct, Ri
 	const Right& m_right;
 
 public:
-	typedef typename Left::value_type value_type;
+	typedef double value_type;
 
 	Expression(const Left& l, const Right& r) : m_left{ l }, m_right{ r } {}
 	size_t size() const { return 1; }
 
-	double operator[](int i) const {
-		size_t size = m_left.size();
-		value_type* left_values = new value_type[size];
-		value_type* right_values = new value_type[size];
-		for (size_t i = 0; i < size; ++i) {
-			left_values[i] = m_left[i];
-			right_values[i] = m_right[i];
-		}
-		return ScalarProduct::apply<value_type>(left_values, right_values, size);
+	value_type operator[](int i) const {
+		return ScalarProduct::apply<Left, Right>(m_left, m_right);
 	}
 
-	bool operator==(const double other) {
-		return (double)*this == other;
+	bool operator==(const value_type& other) {
+		return (value_type)*this == other;
 	}
 
 	operator double() {
-		return (*this)[0];
+		return ScalarProduct::apply<Left, Right>(m_left, m_right);
 	}
 
 	friend ostream& operator<<(ostream& os, const Expression& e) {
