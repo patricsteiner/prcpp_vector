@@ -28,7 +28,7 @@ public:
 		return this;
 	}
 
-	operator value_type() {
+	operator value_type() const {
 		return Op::apply<value_type>((value_type)m_left, (value_type)m_right);
 	}
 
@@ -61,7 +61,7 @@ public:
 		return true;
 	}
 
-	operator value_type() {
+	operator value_type() const {
 		return Op::apply<value_type>(m_left, (value_type)m_right);
 	}
 
@@ -98,7 +98,7 @@ public:
 		return true;
 	}
 
-	operator value_type() {
+	operator value_type() const {
 		return Op::apply<value_type>((value_type)m_left, m_right);
 	}
 
@@ -134,7 +134,7 @@ public:
 		return (value_type)*this == other;
 	}
 
-	operator double() {
+	operator value_type() const {
 		return ScalarProduct::apply<Left, Right>(m_left, m_right);
 	}
 

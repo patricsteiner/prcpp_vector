@@ -27,7 +27,7 @@ struct Divide {
 struct ScalarProduct {
 	template<typename Left, typename Right> static typename Left::value_type apply(const Left& left, const Right& right) {
 		typedef typename Left::value_type value_type;
-		value_type res;
+		value_type res = 0;
 		for (size_t i = 0; i < left.size(); i++) {
 			res += left[i] * right[i];
 		}

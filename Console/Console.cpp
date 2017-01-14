@@ -13,7 +13,7 @@ int main(){
 	cout << d << endl;
 	d = A**B*2.0;
 	cout << d << endl;
-	d = 2.0*B**A;
+	d = (A ** B)*(A ** B);
 	cout << d << endl;
 	return 0;
 }
